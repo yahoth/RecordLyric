@@ -78,9 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				76A314732945BC3B00F52106 /* RecordLyricApp.swift */,
-				76A3148E2945C62700F52106 /* Model.swift */,
-				76A314902945CB5E00F52106 /* ModelStore.swift */,
-				76000B26294630BB00A1557D /* GoogleService-Info.plist */,
+				76C3302E294644E70031CE96 /* Models */,
 				76A3148D2945C60300F52106 /* Views */,
 				76A314772945BC3C00F52106 /* Assets.xcassets */,
 				76A314792945BC3C00F52106 /* Preview Content */,
@@ -108,6 +106,16 @@
 				76A3148B2945C5B800F52106 /* SongView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		76C3302E294644E70031CE96 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				76A3148E2945C62700F52106 /* Model.swift */,
+				76A314902945CB5E00F52106 /* ModelStore.swift */,
+				76000B26294630BB00A1557D /* GoogleService-Info.plist */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
