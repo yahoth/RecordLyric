@@ -17,4 +17,8 @@ struct Info: Identifiable, Hashable {
     var imageName: String?
 }
 
-
+struct User {
+    var nickName: String
+    var userID: String
+    var userPW: String
+}

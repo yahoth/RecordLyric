@@ -12,6 +12,9 @@
 		76000B2C2946314A00A1557D /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 76000B2B2946314A00A1557D /* FirebaseDatabase */; };
 		76000B2E2946314A00A1557D /* FirebaseDatabaseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 76000B2D2946314A00A1557D /* FirebaseDatabaseSwift */; };
 		76000B302946314A00A1557D /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 76000B2F2946314A00A1557D /* FirebaseFirestore */; };
+		763759BA2954924000249954 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 763759B92954924000249954 /* LoginView.swift */; };
+		763759BC2954944000249954 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 763759BB2954944000249954 /* SignUpView.swift */; };
+		763759BE2954981600249954 /* UserStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 763759BD2954981600249954 /* UserStore.swift */; };
 		76A314742945BC3B00F52106 /* RecordLyricApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A314732945BC3B00F52106 /* RecordLyricApp.swift */; };
 		76A314762945BC3B00F52106 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A314752945BC3B00F52106 /* ContentView.swift */; };
 		76A314782945BC3C00F52106 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76A314772945BC3C00F52106 /* Assets.xcassets */; };
@@ -28,6 +31,9 @@
 
 /* Begin PBXFileReference section */
 		76000B26294630BB00A1557D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		763759B92954924000249954 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		763759BB2954944000249954 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		763759BD2954981600249954 /* UserStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStore.swift; sourceTree = "<group>"; };
 		76A314702945BC3B00F52106 /* RecordLyric.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecordLyric.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		76A314732945BC3B00F52106 /* RecordLyricApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordLyricApp.swift; sourceTree = "<group>"; };
 		76A314752945BC3B00F52106 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -98,6 +104,8 @@
 			isa = PBXGroup;
 			children = (
 				76A314752945BC3B00F52106 /* ContentView.swift */,
+				763759B92954924000249954 /* LoginView.swift */,
+				763759BB2954944000249954 /* SignUpView.swift */,
 				76A314812945C1A100F52106 /* FeedListView.swift */,
 				76A314832945C1B000F52106 /* FeedRowView.swift */,
 				76A314852945C1E500F52106 /* AddingView.swift */,
@@ -113,6 +121,7 @@
 			children = (
 				76A3148E2945C62700F52106 /* Model.swift */,
 				76A314902945CB5E00F52106 /* ModelStore.swift */,
+				763759BD2954981600249954 /* UserStore.swift */,
 				76000B26294630BB00A1557D /* GoogleService-Info.plist */,
 			);
 			path = Models;
@@ -202,12 +211,15 @@
 				76A314912945CB5E00F52106 /* ModelStore.swift in Sources */,
 				76A314822945C1A100F52106 /* FeedListView.swift in Sources */,
 				76A314882945C1FB00F52106 /* DetailView.swift in Sources */,
+				763759BC2954944000249954 /* SignUpView.swift in Sources */,
 				76A3148A2945C5A800F52106 /* SingerView.swift in Sources */,
 				76A3148C2945C5B800F52106 /* SongView.swift in Sources */,
 				76A314762945BC3B00F52106 /* ContentView.swift in Sources */,
 				76A314742945BC3B00F52106 /* RecordLyricApp.swift in Sources */,
+				763759BA2954924000249954 /* LoginView.swift in Sources */,
 				76A314862945C1E500F52106 /* AddingView.swift in Sources */,
 				76A314842945C1B000F52106 /* FeedRowView.swift in Sources */,
+				763759BE2954981600249954 /* UserStore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

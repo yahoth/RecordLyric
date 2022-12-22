@@ -24,9 +24,11 @@ struct RecordLyricApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
-                .environmentObject(ModelStore())
-
+//            ContentView()
+//                .environmentObject(ModelStore())
+            LoginView()
+                .environmentObject(UserStore())
         }
+        
     }
 }
